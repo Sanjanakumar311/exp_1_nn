@@ -38,6 +38,7 @@ STEP 5:Normalizing the data<BR>
 STEP 6:Splitting the data into test and train<BR>
 
 ##  PROGRAM:
+```
 #Import libraries
 import pandas as pd
 import numpy as np
@@ -85,7 +86,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 print("\nTraining set size:", X_train.shape)
 print("Testing set size:", X_test.shape)
-
+```
 ## OUTPUT:
 SHOW YOUR OUTPUT HERE
 <img width="787" height="308" alt="image" src="https://github.com/user-attachments/assets/c15eff45-8e4b-407f-8c62-3f4302ca60f5" />
